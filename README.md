@@ -1,2 +1,2 @@
 # Cisco_ACL_scripted_config
-I created a script to quickly remove or add the access lists that are installed on several Cisco routers. Removing the access lists allows me to reach the devices behind the router within the ACI fabric from IP's that are not whitelisted in the ACL. Names and IP's have been anonimized.
+I created a script to quickly remove or add the access lists that are installed on several Cisco routers. Removing the access lists allows me to reach the devices behind the router within the ACI fabric from IP's that are not whitelisted in the ACL. The script is written in Python and sets up a connection to the routers through a SOCKS5 Proxy, I then make use of the Python Paramiko module to login to the router. Names and IP's have been anonimized.
